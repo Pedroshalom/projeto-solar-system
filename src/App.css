@@ -1,3 +1,7 @@
+* { margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -32,9 +36,32 @@ h2 {
   text-align: center;
 }
 
+.principal {
+  align-items: center;
+  height: 270px;
+  justify-content: center;
+  width: 100%;
+}
+
 .missoes {
   align-items: center;
-  display: inline;
+  border: 3px solid grey;
+  display: inline-block;
   font-size: 2.5rem;
+  margin: 50px;
+  padding: 35px;
   text-align: center;
+  width: 30%;
+}
+
+.mission-card {
+  align-items: center;
+  padding: 30px;
+  text-align: center;
+}
+
+
+.missoes p {
+  font-size: 15px;
+  margin-top: 20px;
 }
