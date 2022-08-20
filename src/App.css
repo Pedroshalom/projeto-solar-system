@@ -32,36 +32,57 @@ h2 {
   width: 600px;
 }
 
+.planetas img:hover {
+  transform: scale(1.2);
+}
+
 .texto {
   text-align: center;
 }
 
 .principal {
   align-items: center;
-  height: 270px;
+  display: inline-block;
+  flex-wrap: wrap;
   justify-content: center;
+  width: 90%;
+}
+
+.planetscontainer {
+  align-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px 20px 20px 30px;
+}
+
+hr {
   width: 100%;
 }
 
 .missoes {
-  align-items: center;
   border: 3px solid grey;
   display: inline-block;
-  font-size: 2.5rem;
-  margin: 50px;
+  flex-wrap: wrap;
+  margin: 30px;
   padding: 35px;
   text-align: center;
   width: 30%;
 }
 
 .mission-card {
+  align-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5px auto;
   padding: 30px;
   text-align: center;
 }
 
-
 .missoes p {
-  font-size: 15px;
-  margin-top: 20px;
+  font-size: 18px;
+  margin-top: 15px;
 }
+
